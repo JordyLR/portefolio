@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Ubuntu Regular";
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+body {
+    font-family: "Ubuntu Regular";
+    margin: 0 0;
+}
+header {
+    background-color: darkgoldenrod;
+    color: white;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    padding-right: 5em;
+}
+li {
+    list-style-type: none;
+    align-items: center;
+    padding: 1.5em;
+}
+#personnage {
+    display: flex;
+    justify-content: center;
+    
+}
+.xelor, .enutrof, .feca {
+    margin: 2rem 1rem;
+    border: 1px solid black;
+    box-shadow: black 2px 2px 8px;
+    width: 25vw;
+    font-size: 0.9rem;
+    position: relative;
+    /* Je n'ai pas compris pourquoi cela permet au postion relative des enfants de fonctionner ? */
+    padding-bottom: 3rem;
+}
+#personnage h2, p {
+    padding-right: 1vw;
+    padding-left: 1vw ;
+}
+#personnage .image {
+    width: 100%;
+    height: 28vh;
+    
+}
+#personnage .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btnxel {
+    padding: 10px;
+    background-color: crimson;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btnxel:hover {
+    background-color: rgba(220, 20, 60, 0.658);
+}
+.btnenu {
+    padding: 10px;
+    background-color: midnightblue;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btnenu:hover {
+    background-color: rgba(25, 25, 112, 0.658);
+}
+.btnfeca {
+    padding: 10px;
+    background-color: rgb(7, 231, 26);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.btnfeca:hover {
+    background-color: rgba(7, 231, 26, 0.658);
+}
+#personnage a {
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width: 900px) {
+    #personnage {
+        flex-flow: column;
+        align-items: center;
+    }
+    .xelor, .enutrof, .feca {
+        width: 80vw;
+    }
+}

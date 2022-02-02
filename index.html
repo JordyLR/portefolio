@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Jordy Le Roux</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="shortcut icon" href="assets/img/LogoJLxalter.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo-banner">
+            <img src="assets/img/LogoJLxalter.png" alt="Logo Jordy Le Roux">
+        </div>
+        <div class="main-banner">
+            <h1>JORDY LE ROUX<br><span>Web Développeur</span></h1>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="#competences">COMPÉTENCES</a></li>
+                    <li><a href="#realisations">RÉALISATIONS</a></li>
+                    <li><a class="header-btn" href="#contact">CONTACTEZ MOI</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="presentation">
+            <p>Bonjour, je suis Jordy, j'ai commencé en Octobre 2021 une formation du Campus du Lac de Bordeaux pour devenir Développeur Web et Web mobile, vous retrouvez sur ce site mon portefolio et suivre mon avancé au cours de ma formation ! Et si mon travail vous intéresse n'hésitez pas à me contacter en utilisant le formulaire de contact ! </p>
+        </section>
+        <section id="competences">
+            <h2>COMPÉTENCES</h2>
+            <div class="container-competence">
+                <div class="container-skill">
+                    <h3>Front-End</h3>
+                    <p>HTML</p>
+                    <div class="container-barre">
+                        <div class="skill html"></div>
+                    </div>
+                    <p>CSS</p>
+                    <div class="container-barre">
+                        <div class="skill css"></div>
+                    </div>
+                    <p>Sass</p>
+                    <div class="container-barre">
+                        <div class="skill sass"></div>
+                    </div>
+                    <p>Boostrap</p>
+                    <div class="container-barre">
+                        <div class="skill boos"></div>
+                    </div>
+                    <p>Javascript</p>
+                    <div class="container-barre">
+                        <div class="skill js"></div>
+                    </div>
+                </div>
+                <div class="container-skill">
+                    <h3>Back-End</h3>
+                    <p>PHP</p>
+                    <div class="container-barre">
+                        <div class="skill php"></div>
+                    </div>
+                    <p>MySQL</p>
+                    <div class="container-barre">
+                        <div class="skill sql"></div>
+                    </div>
+                    <p>Symfony</p>
+                    <div class="container-barre">
+                        <div class="skill symfo"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="realisations">
+            <h2>RÉALISATIONS</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="assets/rea/WoW Jordy Le Roux/index.html" class="presentation" target="_blank">
+                        <img src="assets/img/ScreenshotprojetDofus.png" alt="Mon premier projet"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="assets/rea/The Underground Jordy Le Roux/index.html" class="presentation" target="_blank">
+                        <img src="assets/img/ScreenshotprojetTheUnderground.png" alt="Projet The Underground"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="assets/rea/Projet New World/index.html" class="presentation" target="_blank">
+                        <img src="assets/img/ScreenshotprojetNewWorld.png" alt="Projet New World"></a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="assets/rea/Projet Pep's Coaching/index.html" class="presentation" target="_blank">
+                        <img src="assets/img/ScreenshotprojetPepsCoaching.png" alt="Projet Pep's Coaching"></a>
+                    </div> 
+                </div>
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>                
+            </div>
+        </section>
+        <section id="contact">
+            <h2>CONTACT</h2>
+            <form action="">
+                <input type="text" id="name" required name="name" placeholder="Nom & Prénom*">
+                <input type="email" id="email" required name="email" placeholder="E-mail*">
+                <input type="text" id="object" required name="object" placeholder="Objet*">
+                <textarea name="" id="" required placeholder="Votre message*"></textarea>
+                <input type="submit" value="ENVOYER">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Fait par Jordy Le Roux (Novembre 2021)</p>
+    </footer>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
